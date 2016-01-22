@@ -9,6 +9,7 @@
 title: Iwan Effendi
 email: iwaneffendy2@gmail.com
 description: pengalaman pertama menggunakan jekyll.
+baseurl: '/me'
 
 url: "" # the base hostname & protocol for your site
 twitter_username: jekyllrb

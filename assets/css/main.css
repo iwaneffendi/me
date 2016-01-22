@@ -497,7 +497,7 @@ border-top: 2px solid #089178;
 .foto{
 	width: 150px;
 	height: 150px;
-	background-image: url("/assets/image/profile.jpg");
+	background-image: url("{{site.baseurl}}/assets/image/profile.jpg");
 	background-size: cover;
 	border-radius: 130px;
 	position: relative;
