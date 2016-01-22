@@ -6,7 +6,7 @@ permalink: /gallery/
 
 <div class="gallery">
   {% for gallery in site.picme %}
-    <div class="gallery-me" style="background-image:url(/assets/gallery/{{gallery.folder}}/gal.jpg)">
+    <div class="gallery-me" style="background-image:url('{{ site.baseurl }}/assets/gallery/{{gallery.folder}}/gal.jpg')">
       <div class="overlay">
         <h1><strong>{{gallery.name}}</strong></h1>
       </div>
