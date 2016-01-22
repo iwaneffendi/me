@@ -1,0 +1,19 @@
+---
+layout: page
+title: me and vrooh
+permalink: /gallery/
+---
+
+<div class="gallery">
+  {% for gallery in site.picme %}
+    <div class="gallery-me" style="background-image:url(/assets/gallery/{{gallery.folder}}/gal.jpg)">
+      <div class="overlay">
+        <h1><strong>{{gallery.name}}</strong></h1>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+Diatas adalah moment yang pernah penulis jalani bersama vrooh-vroh penulis,
+dari vroh didesa dan dikampus. Hanya kesenangan yang didapat ketika penulis
+bersama mereka. Mungkin akan sulit untuk mengulang masa-masa seperti yang tergambar diatas, ya karena
+sudah memiliki kesibukan masing-masing. 

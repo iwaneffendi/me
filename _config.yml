@@ -1,0 +1,35 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Iwan Effendi
+email: iwaneffendy2@gmail.com
+description: pengalaman pertama menggunakan jekyll.
+
+url: "" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+comments: true
+
+# Build settings
+markdown: kramdown
+
+#gallery
+picme:
+  - {name: ng4l4y in sedudo, folder: 'gal-1'}
+  - {name: ng4l4y in sedudo part ii, folder: 'gal-2'}
+  - {name: kos adi, folder: 'gal-3'}
+  - {name: kos meindra, folder: 'gal-4'}
+  - {name: waktu pkl, folder: 'gal-5'}
+  - {name: waktu ngebromo, folder: 'gal-6'}
+  - {name: waktu ing klayar, folder: 'gal-7'}
+  - {name: waktu ing ponoragi, folder: 'gal-8'}
+
+#install
+installs:
+  - {name: meindra, site: ///www.facebook.com/xmeindrax, folder: 'vroh-1'}
+  - {name: adi kurniawan, site: ///www.facebook.com/adi.k01, folder: 'vroh-2'}

@@ -1,0 +1,141 @@
+---
+layout: default
+---
+
+
+  <div class="picture picture1">
+      <div class="fill-bg">
+        <div class="text-in-bg">whtdousee? <p>iwaneffendi</p></div>
+        <div class="button-slide">
+          <img src="assets/image/down.png" alt="">
+        </div>
+      </div>
+
+  </div>
+
+  <div class="quote">
+    " jangan <strong>lihat ke atas</strong> terus, sekali-kali <strong>lihat ke bawah</strong>, karena yang <strong>diatas gak ada batasnya </strong>"
+  </div>
+  <div class="profile">
+    <div class=thumbnail>
+      <div class="icon-place">
+        <img src="assets/image/link.png" alt="">
+      </div>
+        <h2>Griyo <strong>Kulo</strong></h2>
+        <p>Tinggal di kabupaten Nganjuk, tepatnya di desa Patran
+        Rejo Kecamatan Berbek Kabupaten Nganjuk. Dibesarkan disini, bermain disini,
+      dan sampai sekarang masih disini </p>
+    </div>
+    <div class=thumbnail>
+        <div class="icon-place">
+            <img src="assets/image/school.png" alt="">
+        </div>
+        <h2>Nate <strong>Sekolah</strong></h2>
+        <p>Pernah mencari ilmu yang diawali di SD Patran Rejo, SMPN 2 Berbek, SMAN 1 Berbek,
+        dan akhirnya keperguruan tinggi UN PGRI Kediri </p>
+    </div>
+    <div class=thumbnail>
+        <div class="icon-place">
+            <img src="assets/image/activity.png" alt="">
+        </div>
+        <h2>Ingkang <strong>Sakniki</strong></h2>
+        <p> Dan sekarang masih di rumah, mengisi waktu dengan membantu segala
+        urusan di rumah.</p>
+    </div>
+  </div>
+  <div class="box">
+    <div class="title-skill">
+      skills
+    </div>
+    <div class="skill">
+      <div class="thum-skill">
+        <img src="assets/image/html.png" alt="">
+        HTML & CSS
+      </div>
+      <div class="thum-skill">
+          <img src="assets/image/sotsop.png" alt="">
+          SHOTOSHOP
+      </div>
+      <div class="thum-skill">
+        <img src="assets/image/2048.png" alt="">
+        2048
+      </div>
+    </div>
+  </div>
+  <div class="box">
+    <div class="title-skill">
+      history
+    </div>
+    <div class="box-e">
+      <div class="in-box">
+        <div class="where">SDN PATRAN REJO</div>
+        <div class="where years">2002-2007</div>
+        <div class="des-school">Tempat awal dimana penulis
+        mencari ilmu, bermain dan bercanda bersama teman tanpa ada
+      beban pikiran hanya kesengan yang terpikirkan </div>
+
+        <div class="where">smpn 2 berbek</div>
+        <div class="where years">2007-2009</div>
+        <div class="des-school">Fase kedua dalam mencari ilmu setelah melewati masa sekolah
+          dasar. Tidak banyak berbeda dengan masa sekolah dasar. Hanya letak
+          sekolahnya saja yang berbeda
+        </div>
+
+        <div class="where">sman 1 berbek</div>
+        <div class="where years">2009-2011</div>
+        <div class="des-school">Tahap terakhir di sekolah formal. Dilewati selama 3 tahun, lebih
+        dewasa dalam pemikiran dan tak hanya pelajaran yang dipikirkan.</div>
+
+        <div class="where">universitas nusantara pgri kediri</div>
+        <div class="where years">2011-2015</div>
+        <div class="des-school">Tahap lanjutan setelah sekolah formal. 4 tahun dalam menjalani
+       masa ini. Suka dan duka dilewati, ya walaupun banyak suka nya.
+       </div>
+      </div>
+
+    </div>
+
+  <div class="box">
+    <div class="title-skill">
+      POST
+    </div>
+    <div class="skill">
+      <ul >
+        {% for post in site.posts %}
+          <a href="{{ post.url | prepend: site.baseurl }}">
+          <li>
+              {{ post.title }}
+          </li>
+          </a>
+        {% endfor %}
+      </ul>
+    </div>
+      <!-- <ul >
+        {% for post in site.posts %}
+          <a href="{{ post.url | prepend: site.baseurl }}">
+          <li>
+              {{ post.title }}
+          </li>
+          </a>
+        {% endfor %}
+      </ul> -->
+
+
+  </div>
+
+  <!-- <nav>
+    <ul >
+      {% for post in site.posts %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+        <li>
+            {{ post.title }}
+        </li>
+        </a>
+      {% endfor %}
+    </ul>
+  </nav> -->
+
+{% include tambah.html %}
+
+
+</div>

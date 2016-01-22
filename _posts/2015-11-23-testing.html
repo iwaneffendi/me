@@ -1,0 +1,28 @@
+---
+layout: post
+title: Me On Jekyll
+---
+<div class="container-jekyll">
+
+</div>
+<p>Hallo. ini adalah pengalaman pertama membuat web static menggunakan
+jekyll. Karena dulu membuat web static hanya dengan membuat file index.html saja .
+Tapi dengan jekyll dapat lebih mudah untuk membuat blog atau ngepost. Mungkin saat
+install jekyll nya yang agak ribet, untunglah ada vroh penulis yang bantuin
+install jekyll. Dibawah ini penampakan vroh penulis yang bantuin install jekyll </p>
+
+<div class="install">
+  {% for install in site.installs %}
+  <a href="{{install.site}}"  class="vroh" style="background-image:url(/assets/ins/{{install.folder}}/vroh.jpg)" target="_blank">
+    <div class="overlay">
+        <h1><strong>{{install.name}}</strong></h1>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+<p>Nah itu penampakan yang bantu penulis install jekyll. Sebenernya
+nda cuma bantu install saja, tapi juga bantu tentang
+pemahaman markdown, liquid dan lain-lain. Jekyll itu
+menggabungkan file yang telah dibuat secara terpisah. hanya bermain cara manggil-memanggil file yang
+akan digabungkan untuk menjadi sebuah file jadi di index.html ( CMIIW ) namanya juga masih belajar :v.
+</p>

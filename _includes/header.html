@@ -1,0 +1,31 @@
+<header>
+
+  <div class="judul">
+
+      <div class="site-title"></div>
+
+            <a class="judul-site" href="{{ site.baseurl }}/"> <strong>Hello</strong>Vroh</a>
+
+
+
+
+  </div>
+
+
+
+
+      <div class="container-page">
+
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %}
+        <a class="page-link find">find me</a>
+      </div>
+
+
+
+
+
+</header>
