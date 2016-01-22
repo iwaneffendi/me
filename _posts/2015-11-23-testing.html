@@ -13,7 +13,7 @@ install jekyll. Dibawah ini penampakan vroh penulis yang bantuin install jekyll 
 
 <div class="install">
   {% for install in site.installs %}
-  <a href="{{install.site}}"  class="vroh" style="background-image:url(/assets/ins/{{install.folder}}/vroh.jpg)" target="_blank">
+  <a href="{{install.site}}"  class="vroh" style="background-image:url({{ site.baseurl }}/assets/ins/{{install.folder}}/vroh.jpg)" target="_blank">
     <div class="overlay">
         <h1><strong>{{install.name}}</strong></h1>
     </div>
