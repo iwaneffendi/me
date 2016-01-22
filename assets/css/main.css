@@ -31,7 +31,7 @@ a {
 	height: 450px;
 }
 .picture1 {
-	background-image: url("{{ site.baseurl }}/assets/image/sunset.png");
+	background-image: url('{{ site.baseurl }}/assets/image/sunset.png');
 	background-size: cover;
 	position: relative;
 
