@@ -499,7 +499,7 @@ border-top: 2px solid #089178;
 .foto{
 	width: 150px;
 	height: 150px;
-	background-image: url('{{ site.baseurl }}assets/image/profile.jpg');
+	background-image: url('{{ site.baseurl }}/assets/image/profile.jpg');
 	background-size: cover;
 	border-radius: 130px;
 	position: relative;
@@ -588,13 +588,13 @@ display: flex;
 
 }
 .sosmed:nth-child(2){
-		background-image: url('{{ site.baseurl }}/assets/image/twitter.png'{{ site.baseurl }});
+		background-image: url('{{ site.baseurl }}/assets/image/twitter.png');
 }
 .sosmed:nth-child(3){
-		background-image: url('{{ site.baseurl }}/assets/image/instagram.png'{{ site.baseurl }});
+		background-image: url('{{ site.baseurl }}/assets/image/instagram.png');
 }
 .sosmed:nth-child(4){
-		background-image: url('{{ site.baseurl }}/assets/image/soundcloud.png'{{ site.baseurl }});
+		background-image: url('{{ site.baseurl }}/assets/image/soundcloud.png');
 }
 .full{
 	display: none;
