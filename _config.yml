@@ -8,7 +8,7 @@
 # Site settings
 title: Iwan Effendi
 email: iwaneffendy2@gmail.com
-description: Sebuah halaman statis yang digunakan untuk menuliskan sejarah penulis.
+description: Sebuah halaman statis yang digunakan untuk menuliskan sejarah penulis .
 baseurl: '/me'
 
 url: "" # the base hostname & protocol for your site
