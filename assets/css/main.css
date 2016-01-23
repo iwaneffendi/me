@@ -16,7 +16,7 @@ body{
 	color:#555;
 	/* double shadow */
 	/* box-shadow: horizontal, vertical, blur, blur offset, color; */
-	box-shadow: 30px 10px 5px -20px #333, -30px 10px 5px -20px #333;
+	box-shadow: 20px 10px 35px -20px #333, -20px 10px 35px -20px #333;
 
 }
 a {
